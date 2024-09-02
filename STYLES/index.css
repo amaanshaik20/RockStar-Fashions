@@ -140,6 +140,8 @@ body {
     }
 
 
+
+
 }
 
 @media(max-width:565px) {
@@ -194,4 +196,38 @@ body {
     padding: 20px;
     border: 2px dotted black;
     border-radius: 20px;
+}
+
+@media(max-width:673px) {
+
+    .body {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .info {
+        width: 80%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
+
+@media(max-width:1253px) {
+
+    .body {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+    }
 }
