@@ -74,7 +74,9 @@ body {
 
 .elements a:hover {
     color: blue;
+    border-bottom: 5px solid black;
 }
+
 
 
 @media(max-width:994px) {
@@ -87,6 +89,12 @@ body {
     }
 }
 
+@media(max-width:918px) {
+    .elements i {
+        display: none;
+    }
+}
+
 @media(max-width:882px) {
     .navbar .search_bar {
         width: 15rem;
@@ -95,6 +103,8 @@ body {
     .search_bar input {
         width: 12rem;
     }
+
+
 }
 
 @media(max-width:817px) {
@@ -138,10 +148,6 @@ body {
     .navbar {
         height: 70px;
     }
-
-
-
-
 }
 
 @media(max-width:565px) {
@@ -243,7 +249,7 @@ body {
 .name {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
 #heading {
@@ -256,4 +262,19 @@ body {
     margin-top: -30px;
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#heading:hover {
+    color: red;
+    /* box-shadow: 0 0 10px black; */
+}
+
+#tag:hover {
+    color: purple;
+}
+
+@media(max-width:1306px) {
+    .name {
+        display: none;
+    }
 }
