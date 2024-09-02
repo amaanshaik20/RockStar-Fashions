@@ -213,6 +213,14 @@ body {
     iframe {
         width: 100%;
     }
+
+}
+
+@media(max-width:709px) {
+
+    .elements i {
+        display: none;
+    }
 }
 
 @media(max-width:1253px) {

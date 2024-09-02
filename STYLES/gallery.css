@@ -164,7 +164,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     row-gap: 80px;
-    column-gap: 280px;
+    column-gap: 210px;
     justify-content: left;
     margin-left: 20px;
 }
@@ -172,4 +172,24 @@ body {
 .body img {
     width: 300px;
     border: 2px solid blueviolet;
+}
+
+.body video {
+    width: 300px;
+}
+
+.body1 {
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 80px;
+    column-gap: 50px;
+    justify-content: left;
+    margin-left: 20px;
+}
+
+.body1 img {
+    width: 450px;
+    height: 400px;
+    object-fit: contain;
 }
