@@ -165,20 +165,29 @@ body {
     column-gap: 140px;
     justify-content: left;
     margin-left: 20px;
+    margin-bottom: 50px;
 }
 
 
 .info {
     width: 45%;
-    background-color: rgba(204, 217, 206, 0.4);
+    height: fit-content;
+    background-color: rgba(204, 217, 206, 0.7);
+    border-radius: 50px 5px;
     color: black;
+    padding: 20px;
 }
 
 .info b {
     margin-left: 40%;
     font-size: x-large;
+    color: red;
 }
 
 .info p {
     font-size: larger;
+    color: darkblue;
+    padding: 20px;
+    border: 2px dotted black;
+    border-radius: 20px;
 }
