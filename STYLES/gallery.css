@@ -174,18 +174,21 @@ body {
     border: 2px solid blueviolet;
 }
 
-.body video {
-    width: 300px;
+.body1 video {
+    width: 450px;
+    height: 400px;
+    object-fit: contain;
 }
 
 .body1 {
-    margin-top: 120px;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     row-gap: 80px;
     column-gap: 200px;
     justify-content: left;
     margin-left: 100px;
+    margin-bottom: 10px;
 }
 
 .body1 img {
