@@ -11,6 +11,10 @@ body {
     background-position: center;
 }
 
+.no-right-click {
+    pointer-events: none;
+}
+
 .navbar {
     height: 90px;
     width: 100%;

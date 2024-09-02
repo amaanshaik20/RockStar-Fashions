@@ -10,7 +10,7 @@
     <link rel="icon" href="/ASSETS/LOGO.jpg">
 </head>
 
-<body>
+<body oncontextmenu="return disable();">
     <nav class="navbar">
         <div class="logo">
             <a href="index.html"><img src="/ASSETS/LOGO.jpg" alt=""></a>
@@ -48,5 +48,11 @@
 
 
 </body>
+<script type="text/javascript">
+    function disable() {
+        alert("Sorry no right click allowed");
+        return false;
+    }
+</script>
 
 </html>
