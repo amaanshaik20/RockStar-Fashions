@@ -183,13 +183,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     row-gap: 80px;
-    column-gap: 50px;
+    column-gap: 200px;
     justify-content: left;
-    margin-left: 20px;
+    margin-left: 100px;
 }
 
 .body1 img {
     width: 450px;
     height: 400px;
-    object-fit: contain;
+    object-fit: cover;
 }
